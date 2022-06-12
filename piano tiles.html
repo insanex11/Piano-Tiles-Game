@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIANO TILES GAME</title>
+    <link rel="stylesheet" href="piano.css">
+
+<!--GOOGLE FONT LINK-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body id="body" onkeypress="keyPressFunction()">
+    <h1 id="title">PRESS KEY TO START</h1>
+    <div class="timer">0 seconds</div>
+    <div id="box">
+        <table>
+            <tr>
+                <td><button type="button" id="1" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td> 
+                <td><button type="button" id="2" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="3" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="4" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="5" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="6" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="7" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td> 
+                <td><button type="button" id="8" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="9" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="10" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="11" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="12" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="13" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="14" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="15" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+                <td><button type="button" id="16" class="button" style="background-color: rgb(39, 37, 37);" onclick="game(this)"></button></td>
+            </tr>
+        </table>
+    </div>  
+
+    <!--EXTERNAL JAVASCRIPT FILE-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
