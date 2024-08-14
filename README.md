@@ -1,4 +1,4 @@
-# Piano TIles
+# Piano Tiles
 
 This repository contains the source code for the Piano Tiles game, a memory-based game where players must repeat sequences of tiles that light up, challenging their memory and reflexes.
 
